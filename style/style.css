@@ -191,3 +191,44 @@ text-align: center;
 #countryPays{
   width: 200px;
 }
+
+
+/* partie formulaire */
+
+
+#form{
+  width: 100vw; 
+  height: 100vh;
+  
+}
+#form form{
+  margin: 0 auto;
+  box-shadow: 2px 3px 7px #333,
+              -2px 3px 7px #333;
+  width: 50%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+form input, form textarea, form span{
+ width: 90%;
+border-radius: 9999px;
+ max-width: 500px;
+ margin: 10px;
+ padding: 7px;
+
+}
+form textarea{
+height: 300px;
+resize: none;
+}
+form span{
+  border:none ;
+}
+form input, form textarea{
+  padding: 20px;
+}
