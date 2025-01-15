@@ -187,3 +187,7 @@ text-align: center;
     min-height: 100vh;
     width: 100vw;
 }
+
+#countryPays{
+  width: 200px;
+}

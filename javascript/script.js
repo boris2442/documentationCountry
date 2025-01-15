@@ -14,6 +14,14 @@ document.getElementById("countryPays").addEventListener("input", function(){
             currency: 'Dinar Algérien',
             phone: '+213'
         },
+        'Maroc': {
+    name: 'Maroc',
+    capital: 'Rabat',
+    population: '37 millions',
+    currency: 'Dirham marocain (MAD)',
+    phone: '+212'
+},
+
         'Angola': {
             name: 'Angola',
             capital: 'Luanda',
