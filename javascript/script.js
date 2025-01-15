@@ -49,6 +49,11 @@ document.getElementById("countryPays").addEventListener("input", function(){
             currency: 'Rand',
             phone: '+27'
         },
+        'Gambie':{
+            capital: "Banjul",
+            currency:"Dalasi gambien (GMD)",
+            phone:"+220"
+        },
         'Madagascar': {
             name: 'Madagascar',
             capital: 'Antananarivo',
