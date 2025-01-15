@@ -48,7 +48,7 @@
     </div>
 </section>
 
-<section class="country-pays">
+<section id="country-pays">
     <label for="countryPays">choisissez un Pays</label>
     <input type="text" list="country" id="countryPays" placeholder="Algerie">
 <datalist id="country">
@@ -103,10 +103,16 @@
     <option value="Zambie">+260</option>
     <option value="Zimbabwe">+263</option>
 
-
-
-
 </datalist>
+
+<div class="country-info">
+    <h2>Informations :</h2>
+    <p><strong>Nom du pays :</strong> <span id="country-name"></span></p>
+    <p><strong>Capitale :</strong> <span id="country-capital"></span></p>
+    <p><strong>Population :</strong> <span id="country-population"></span></p>
+    <p><strong>Devise :</strong> <span id="country-currency"></span></p>
+    <p><strong>Indicatif téléphonique :</strong> <span id="country-phone"></span></p>
+</div>
 
 </section>
 
@@ -114,9 +120,6 @@
 
 
 </main>
-
-
-
 
     <script src="./javascript/script.js"></script>
 </body>

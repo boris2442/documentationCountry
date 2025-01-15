@@ -183,3 +183,7 @@ text-align: center;
     padding: 10px;
 }
 
+#country-pays{
+    min-height: 100vh;
+    width: 100vw;
+}
