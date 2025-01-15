@@ -1,3 +1,12 @@
+*, ::after, ::before{
+    margin: 0;
+    outline: none;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
 .loader {
     position: fixed;
     top: 0;
@@ -76,3 +85,17 @@
   .lettre:nth-child(13){
     animation-delay: 1.3s;
   }
+
+
+
+  body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    background-image: 
+    linear-gradient(90deg, rgba(0, 128, 0, 0.8), rgba(255, 215, 0, 0.7), rgba(255, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), 
+    url(/image/carteBleu.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
