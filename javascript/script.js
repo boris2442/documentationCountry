@@ -117,6 +117,21 @@ document.getElementById("countryPays").addEventListener("input", function(){
     currency: 'Franc burundais (BIF)',
     phone: '+257'
 },
+'République Centrafricaine': {
+    name: 'République Centrafricaine',
+    capital: 'Bangui',
+    population: '5 millions',
+    currency: 'Franc CFA (XAF)',
+    phone: '+236'
+},
+'Congo': {
+    name: 'République du Congo',
+    capital: 'Brazzaville',
+    population: '5,8 millions',
+    currency: 'Franc CFA (XAF)',
+    phone: '+242'
+},
+
 
         'Burkina Faso': {
             name: 'Burkina Faso',
