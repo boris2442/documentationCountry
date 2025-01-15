@@ -198,6 +198,7 @@ text-align: center;
 
 #form{
   width: 100vw; 
+  border-radius: 8px;
   height: 100vh;
   
 }
@@ -231,4 +232,19 @@ form span{
 }
 form input, form textarea{
   padding: 20px;
+}
+#form h2{
+  font-size: clamp(1.5rem, 4vw, 4rem);
+  text-align: center;
+  padding: 30px;
+}
+input[type='submit']{
+  cursor: pointer;
+  border: none;
+  color:#fff;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+input[type='submit']:hover{
+ background:black;
 }
