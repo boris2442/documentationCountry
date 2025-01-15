@@ -110,6 +110,14 @@ document.getElementById("countryPays").addEventListener("input", function(){
             currency: 'Kwacha malawien',
             phone: '+265'
         },
+        'Burundi': {
+    name: 'Burundi',
+    capital: 'Gitega',
+    population: '12 millions',
+    currency: 'Franc burundais (BIF)',
+    phone: '+257'
+},
+
         'Burkina Faso': {
             name: 'Burkina Faso',
             capital: 'Ouagadougou',
