@@ -200,6 +200,7 @@ text-align: center;
   width: 100vw; 
   border-radius: 8px;
   height: 100vh;
+  margin-bottom: 100px;
   
 }
 #form form{
@@ -247,4 +248,9 @@ input[type='submit']{
 }
 input[type='submit']:hover{
  background:black;
+}
+
+
+.error{
+  border: 3px solid red;
 }

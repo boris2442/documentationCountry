@@ -448,3 +448,42 @@ document.getElementById("countryPays").addEventListener("input", function(){
 //     return countries[country] || null;
 // }
   
+
+
+const inputName=document.getElementById("name");
+
+// const regexName= ^[A-Za-zÀ-ÖØ-öø-ÿ\s'-]{1,50}$;
+const symbols = /[^a-zA-Z0-9\s]/;
+const spanName=document.querySelector("#spanName");
+
+inputName.addEventListener("input", (e)=>{
+    const valueName=e.target.value;
+    console.log(valueName);
+    if(valueName.length < 3 || valueName.length >20 ){
+        inputName.classList.add("error") ;
+        spanName.textContent='Ce champ doit avoir entre 3 et 20 caractères'  ;
+    }else if(symbols.test(valueName)){
+        spanName.textContent='Ce champ ne doit pas contenir ce caractere';
+    }else{
+        inputName.classList.remove("error")  ;
+        spanName.textContent='';
+    }
+
+});
+
+const inputSurname=document.getElementById("surname");
+const spanSurname=document.getElementById("spanSurname")
+inputSurname.addEventListener("input", (e)=>{
+    const valueSurname=e.target.value;
+    console.log(valueSurname);
+    if(valueSurname.length < 3 || valueSurname.length >20 ){
+        inputSurname.classList.add("error") ;
+        spanSurname.textContent='Ce champ doit avoir entre 3 et 20 caractères'  ;
+    }else if(symbols.test(valueSurname)){
+        spanSurname.textContent='Ce champ ne doit pas contenir ce caractere';
+    }else{
+        inputSurname.classList.remove("error")  ;
+        spanSurname.textContent='';
+    }
+})
+
