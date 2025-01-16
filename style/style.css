@@ -255,3 +255,29 @@ input[type='submit']:hover{
 .error{
   border: 3px solid red;
 }
+.how p{
+  text-align: justify;
+}
+.copy{
+  text-align: center;
+  padding: 20px;
+}
+@media screen and (max-width:1111px){
+  .how{
+    display: flex;
+    flex-direction: column;
+  }
+  .how p{
+    height: 400px;
+    overflow: auto;
+  }
+  .how p::-webkit-scrollbar-track {
+    border-width:20px;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+    border-radius:9999px;
+  }
+  .how p::-webkit-scrollbar {
+    width:10px;
+  }
+}
