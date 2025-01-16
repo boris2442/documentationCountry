@@ -216,18 +216,24 @@ text-align: center;
   flex-direction: column;
   padding: 20px;
 }
-
 form input, form textarea, form span{
- width: 90%;
-border-radius: 9999px;
- max-width: 500px;
- margin: 10px;
- padding: 7px;
-
+  width: 90%;
+  border-radius: 9999px;
+  max-width: 500px;
+  margin: 10px;
+  padding: 7px;
+  
 }
 form textarea{
-height: 300px;
-resize: none;
+  height: 400px;
+  resize: none;
+  border-radius: 30px;
+}
+@media screen and (max-width:700px) {
+  #form form{
+    width: 80%;
+    height: auto;
+  }
 }
 form span{
   border:none ;
@@ -280,4 +286,64 @@ input[type='submit']:hover{
   .how p::-webkit-scrollbar {
     width:10px;
   }
+}
+.country-pays h2{
+  text-align: center;
+  padding: 50px;
+   font-size: clamp(1.9rem, 4vw , 4rem); 
+}
+/* .container img{
+  width: 600px;
+height: 500px;
+}
+.container{
+  padding: 20px;
+  border: 1px solid red;
+ display: grid;
+ background: url('/image/box.jpg');
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.box-container{
+  width: 100%;
+  height: 100%;
+ 
+} */
+
+.parents{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+datalist{
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+label{
+  padding-left: 100px;
+  display: flex;
+}
+.parents input{
+  padding: 10px;
+  width: 300px;
+  margin: 50px;
+}
+p>strong{
+  padding: 60px 30px;
+
+}
+.country-info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  text-align: justify;
+  flex-direction: column;
 }
