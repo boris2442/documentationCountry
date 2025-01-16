@@ -487,3 +487,24 @@ inputSurname.addEventListener("input", (e)=>{
     }
 })
 
+
+const spanTextarea=document.getElementById("spanTextarea");
+const textarea=document.querySelector("textarea")
+
+textarea.addEventListener("input", (e)=>{
+    const valueText=e.target.value;
+    console.log(valueText);
+    if(valueText.length < 10 || valueText.length >120 ){
+        textarea.classList.add("error") ;
+        spanTextarea.textContent='Ce champ doit avoir entre 10 et 120 caractères'  ;
+    }else{
+       textarea.classList.remove("error")  ;
+       spanTextarea.textContent='';
+    }
+});
+
+
+const forms=document.querySelector("form");
+forms.addEventListener("submit", (e)=>{
+e.preventDefault()
+})

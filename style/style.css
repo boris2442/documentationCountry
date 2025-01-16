@@ -154,7 +154,7 @@ header p{
 
 .what{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, auto));
     gap: 20px; /* Espacement entre les éléments */
    
     padding: 100px 50px ; 
@@ -209,6 +209,7 @@ text-align: center;
               -2px 3px 7px #333;
   width: 50%;
   height: 90%;
+  border-radius: 7px;
   display: flex;
   justify-content: center;
   align-items: center;
