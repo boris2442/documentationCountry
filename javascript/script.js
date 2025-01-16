@@ -1,10 +1,22 @@
 // chargement de la page
 
+
 window.onload = function() {
     document.querySelector('.loader').style.display = 'none';
     document.querySelector('.loader').style.transition='5s ease-out'
   };
  
+// partie scrollReveal
+
+const sr = ScrollReveal({
+    direction: "vertical",
+    distance: "30px",
+    origin: "top",
+    duration: 1500
+});
+
+sr.reveal(".form, .country-pays, .how, .discover, .loader, .header", { interval: 200 });
+
 document.getElementById("countryPays").addEventListener("input", function(){
     const countryData = {
         'Algérie': {
