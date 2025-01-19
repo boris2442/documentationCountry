@@ -33,6 +33,13 @@ document.getElementById("countryPays").addEventListener("input", function(){
     currency: 'Dirham marocain (MAD)',
     phone: '+212'
 },
+'Burkina Faso':{
+name:'Burkina Faso',
+capital:'Ouagadougou',
+population:'23 millions (estimation 2025)',
+currency:'Franc CFA (XOF)',
+phone:'+226'
+},
 
         'Angola': {
             name: 'Angola',
