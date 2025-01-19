@@ -15,7 +15,7 @@ const sr = ScrollReveal({
     duration: 1500
 });
 
-sr.reveal(".form, .country-pays, .how, .discover, .copy,  .loader, .header", { interval: 200 });
+sr.reveal(".form, .country-pays, .how, .discover, .copy,  .loader, .header, .lienVesMe", { interval: 200 });
 
 document.getElementById("countryPays").addEventListener("input", function(){
     const countryData = {

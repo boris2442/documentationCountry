@@ -18,7 +18,7 @@ body{
     width: 100%;
     height: 100%;
   
-    background-color: rgba(0, 0, 0, 0.5); /* fond semi-transparent */
+    background-color: rgba(0, 0, 0, 0.5); 
     color: white;
     background-color: black;
     display: flex;
@@ -28,7 +28,7 @@ body{
     transition: 1s ease-in-out;
     font-size: clamp(15px, 4vw, 40px);
     font-weight: bold;
-    z-index: 9999; /* assure-toi qu'il se trouve au-dessus du contenu */
+    z-index: 9999; 
   }
   .lettre{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -123,11 +123,11 @@ header p{
     background-image: url(/image/63953f06b2b2c0e4b4155fbfff3e62cb.jpg);
     background-image: linear-gradient(
     90deg, 
-    rgba(0, 128, 0, 0.7), /* Vert avec opacité */
-    rgba(255, 215, 0, 0.7), /* Jaune avec opacité */
-    rgba(255, 0, 0, 0.7),   /* Rouge avec opacité */
-    rgba(0, 0, 0, 0.7)      /* Noir avec opacité */
-), url(/image/63953f06b2b2c0e4b4155fbfff3e62cb.jpg); /* Image noire */
+    rgba(0, 128, 0, 0.7), 
+    rgba(255, 215, 0, 0.7),
+    rgba(255, 0, 0, 0.7),   
+    rgba(0, 0, 0, 0.7)      
+), url(/image/63953f06b2b2c0e4b4155fbfff3e62cb.jpg); 
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -157,7 +157,7 @@ header p{
 
     gap: 20px;
    grid-template-columns: 1fr 1fr;
-    /* padding: 100px 50px ;  */
+   
 }
 .what img{
    
@@ -189,16 +189,36 @@ text-align: center;
 }
 
 #country-pays{
-   height: 100vh;
+  
     width: 100vw;
+    padding-bottom: 80px;
 }
 
 #countryPays{
   width: 200px;
 }
 
-
-/* partie formulaire */
+#country-pays #lienVesMe{
+text-decoration: none;
+background-image: linear-gradient(
+    90deg, 
+    rgba(0, 128, 0, 0.7), 
+    rgba(255, 215, 0, 0.7),
+    rgba(255, 0, 0, 0.7),   
+    rgba(0, 0, 0, 0.7)      
+    ), url(/image/63953f06b2b2c0e4b4155fbfff3e62cb.jpg); /* Image noire */
+    color:#fff;
+    text-align: center;
+    padding: 8px 14px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 9999px;
+}
+/*$$$$$$$$$$$$$$$$$$$$$
+                     partie formulaire
+                                      $$$$$$$$$$$$$$$$$$$$$$ */
 
 
 #form{
@@ -230,7 +250,7 @@ form input, form textarea, form span{
   
 }
 form textarea{
-  height: 400px;
+  height: 300px;
   resize: none;
   border-radius: 30px;
 }
@@ -297,64 +317,23 @@ input[type='submit']:hover{
   padding: 50px;
    font-size: clamp(1.9rem, 4vw , 4rem); 
 }
-/* .container img{
-  width: 600px;
-height: 500px;
-}
-.container{
-  padding: 20px;
-  border: 1px solid red;
- display: grid;
- background: url('/image/box.jpg');
- background-position: center;
- background-size: cover;
- background-repeat: no-repeat;
- grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
-}
-.box-container{
-  width: 100%;
-  height: 100%;
- 
-} */
+
 
 .parents{
   display: flex;
   gap:30px;
 flex-wrap: wrap;
+margin: 0 auto;
    justify-content: center;
    align-items: center; 
  } 
-/* datalist{
-  position: absolute;
-  left: 30px;
-  top: 0;
-} */
-/* label{
-  padding-left: 100px;
-  display: flex;
-} */
+
 #countryPays{
   padding: 10px;
   width: 300px;
   border-radius: 9999px;
  
 }
-/* p>strong{
-  padding: 60px 30px;
-
-} */
-/* .country-info{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap:20px;
-  text-align: justify;
-  flex-direction: column;
-} */
-
 
 
 
