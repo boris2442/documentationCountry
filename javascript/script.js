@@ -429,42 +429,23 @@ document.getElementById("countryPays").addEventListener("input", function(){
         document.getElementById('country-currency').textContent = countryInfo.currency;
         document.getElementById('country-phone').textContent = countryInfo.phone;
     } else {
-        // Remettre à zéro si le pays n'est pas dans la liste
+       
         document.getElementById('country-name').textContent = '';
         document.getElementById('country-capital').textContent = '';
         document.getElementById('country-population').textContent = '';
         document.getElementById('country-currency').textContent = '';
         document.getElementById('country-phone').textContent = '';
     }
-    // const country = this.ariaValue;
-    // const info = getCountryInfo(country)
-    
-    // if(info){
-    //     document.getElementById('country-name').textContent = info.name;
-    //     document.getElementById('country-capital').textContent = info.capital;
-    //     document.getElementById('country-population').textContent = info.population;
-    //     document.getElementById('country-currency').textContent = info.currency;
-    //     document.getElementById('country-phone').textContent = info.phone;
-        
-      
-    //     document.querySelector('.country-info').style.display = 'block';
-    // }else{
-    //     document.querySelector('.country-info').style.display = 'none';
-    // }
+   
 });
 
 
-// function getCountryInfo(country) {
-    
-//     // Retourne les informations du pays ou null si non trouvé
-//     return countries[country] || null;
-// }
-  
+
 
 
 const inputName=document.getElementById("name");
 
-// const regexName= ^[A-Za-zÀ-ÖØ-öø-ÿ\s'-]{1,50}$;
+
 const symbols = /[^a-zA-Z0-9\s]/;
 const spanName=document.querySelector("#spanName");
 
