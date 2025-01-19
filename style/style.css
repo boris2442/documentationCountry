@@ -9,6 +9,10 @@
 body{
     overflow-x: hidden;
 }
+img:hover{
+filter:grayscale(100%);
+cursor: pointer;
+}
 .loader {
     position: fixed;
     top: 0;
