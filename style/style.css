@@ -189,7 +189,7 @@ text-align: center;
 }
 
 #country-pays{
-    min-height: 100vh;
+   height: 100vh;
     width: 100vw;
 }
 
@@ -322,36 +322,38 @@ height: 500px;
 
 .parents{
   display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-}
-datalist{
+  gap:30px;
+flex-wrap: wrap;
+   justify-content: center;
+   align-items: center; 
+ } 
+/* datalist{
   position: absolute;
   left: 30px;
   top: 0;
-}
-label{
+} */
+/* label{
   padding-left: 100px;
   display: flex;
-}
-.parents input{
+} */
+#countryPays{
   padding: 10px;
   width: 300px;
-  margin: 50px;
+  border-radius: 9999px;
+ 
 }
-p>strong{
+/* p>strong{
   padding: 60px 30px;
 
-}
-.country-info{
+} */
+/* .country-info{
   display: flex;
   justify-content: center;
   align-items: center;
   gap:20px;
   text-align: justify;
   flex-direction: column;
-}
+} */
 
 
 
