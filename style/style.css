@@ -252,7 +252,7 @@ form input, form textarea, form span{
   width: 90%;
   border-radius: 9999px;
   max-width: 400px;
-  /* margin: 10px; */
+
   padding: 7px;
   
 }
@@ -283,7 +283,7 @@ input[type='submit']{
   cursor: pointer;
   border: none;
   color:#fff;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
 }
 input[type='submit']:hover{
